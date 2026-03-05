@@ -1,0 +1,5 @@
+hash_functions,r,b,false_positives,false_negatives
+50,5,10,5,7
+100,5,20,0,7
+200,5,40,0,7
+200,10,20,0,8

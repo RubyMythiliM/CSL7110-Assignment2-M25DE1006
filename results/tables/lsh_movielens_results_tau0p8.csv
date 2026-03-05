@@ -1,0 +1,5 @@
+hash_functions,r,b,false_positives,false_negatives,exact_pairs_count,predicted_pairs_count
+50,5,10,0,0,1,1
+100,5,20,0,0,1,1
+200,5,40,0,0,1,1
+200,10,20,0,0,1,1

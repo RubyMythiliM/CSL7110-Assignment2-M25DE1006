@@ -1,0 +1,6 @@
+t_hash_functions,approx_jaccard
+20,0.95
+60,1.0
+150,0.98
+300,0.97
+600,0.975
