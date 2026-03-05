@@ -1,52 +1,75 @@
-# CSL7110 Assignment 2
-MinHashing and Locality Sensitive Hashing
+# CSL7110 – Assignment 2
+## MinHashing and Locality Sensitive Hashing
 
-Name: Ruby Mythili  
-Roll Number: M25DE1006  
-Course: CSL7110  
-Institute: IIT Jodhpur  
+**Name:** Ruby Mythili  
+**Roll No:** M25DE1006  
+**Course:** CSL7110 – Machine Learning with Big Data  
 
-## Overview
-This assignment implements MinHashing and Locality Sensitive Hashing (LSH) techniques for similarity detection.
+---
 
-The tasks include:
+## Assignment Overview
 
-1. Constructing k-grams for documents
-2. Computing exact Jaccard similarity
-3. Estimating similarity using MinHash
-4. Applying LSH for candidate pair detection
-5. Performing experiments on the MovieLens dataset
+This assignment implements similarity detection using:
 
-## Folder Structure
+- k-gram based Jaccard similarity
+- MinHash approximation
+- Locality Sensitive Hashing (LSH)
 
-data/
-- D1.txt
-- D2.txt
-- D3.txt
-- D4.txt
+The implementation is done using Python in Google Colab.
 
-movielens/
-- MovieLens dataset
+---
 
-results/
-- tables/
-- screenshots/
+## Repository Structure
 
-## Experiments
 
-- Exact Jaccard Similarity
-- MinHash Approximation
-- LSH Candidate Detection
-- MovieLens MinHash Experiment
-- MovieLens LSH Experiment
+CSL7110-Assignment2-M25DE1006
+│
+├── README.md
+├── REPORT.md
+├── data/
+├── notebooks/
+└── results/
+
+
+---
+
+## Assignment Report
+
+The complete assignment explanation and analysis is available here:
+
+👉 **[View REPORT.md](REPORT.md)**
+
+---
+
+## Implementation Notebook
+
+The implementation notebook is available here:
+
+👉 **[Open Notebook](notebooks/CSL7110_Assignment2_M25DE1006.ipynb)**
+
+---
 
 ## Results
 
-All experiment outputs are stored in:
-
-results/tables
+All experimental results are stored in:
 
 
-## Repository
+results/tables/
 
-Code and experiment outputs are available in this repository.
+
+Files include:
+
+- `jaccard_results.csv`
+- `minhash_estimates.csv`
+- `minhash_runtime_analysis.csv`
+- `lsh_movielens_results_tau0p6.csv`
+- `lsh_movielens_results_tau0p8.csv`
+
+---
+
+## Tools Used
+
+- Python
+- Google Colab
+- MinHash
+- Locality Sensitive Hashing
